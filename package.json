@@ -1,0 +1,16 @@
+{
+  "name": "amplify-js-app",
+  "version": "1.0.0",
+  "description": "AWS Amplify JavaScript Example",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "4.29.6",
+    "webpack-cli": "^3.2.3",
+    "copy-webpack-plugin": "5.0.0",
+    "webpack-dev-server": "3.2.1"
+  },
+  "scripts": {
+    "start": "webpack && webpack-dev-server --mode development",
+    "build": "webpack"
+  }
+}

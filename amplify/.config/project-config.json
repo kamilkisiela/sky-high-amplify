@@ -1,0 +1,20 @@
+{
+    "projectName": "exampleamplify",
+    "projectPath": "/Users/kamilkisiela/Repo/aws/example-amplify",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "javascript": "/Users/kamilkisiela/.config/yarn/global/node_modules/amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "build",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "npm run-script start"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/Users/kamilkisiela/.config/yarn/global/node_modules/amplify-provider-awscloudformation"
+    }
+}
